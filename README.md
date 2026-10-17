@@ -31,11 +31,11 @@ Paket ini mengompilasi **Asterisk 22 LTS** langsung dari sumber resminya untuk b
 
 ## 🛠️ Panduan Instalasi Cepat
 
-Jalankan perintah berikut di terminal server Debian 13 Anda:
+Jalankan perintah berikut di terminal server Debian 13:
 
 ```bash
 # 1. Klon repositori ini
-git clone https://github.com/username-anda/asterisk22-debian13.git
+git clone https://github.com/asfydien/asterisk22-debian13.git
 cd asterisk22-debian13
 
 # 2. Berikan izin eksekusi pada skrip
@@ -45,7 +45,7 @@ chmod +x install-asterisk-22lts.sh uninstall-asterisk-22lts.sh
 sudo ./install-asterisk-22lts.sh
 ```
 
-Proses kompilasi memakan waktu sekitar **5 - 15 menit** tergantung spesifikasi prosesor server Anda.
+Proses kompilasi memakan waktu sekitar **5 - 15 menit** tergantung spesifikasi prosesor server.
 
 ---
 
