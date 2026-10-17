@@ -242,3 +242,19 @@ sudo ./uninstall-asterisk-22lts.sh
 ```
 
 Skrip ini akan menghentikan service, membersihkan biner, mencopot service systemd, dan menghapus seluruh folder konfigurasi `/etc/asterisk`.
+
+---
+
+## Batasan Tanggung Jawab (Disclaimer)
+
+Skrip dan seluruh materi panduan di dalam repositori ini disediakan semata-mata untuk **tujuan edukasi, pembelajaran, dan pengujian di lingkungan lab/praktikum**.
+
+- Perangkat lunak ini disediakan dengan status **"AS IS" (Apa Adanya)**, tanpa jaminan performa, stabilitas, atau kesesuaian untuk lingkungan operasional tertentu.
+- Pembuat repositori **tidak bertanggung jawab** atas segala kerusakan sistem operasi, kehilangan data, eror konfigurasi, downtime layanan, maupun kerugian lain yang mungkin timbul akibat eksekusi skrip installer atau uninstaller ini.
+- Pengguna bertanggung jawab penuh atas segala tindakan eksekusi hak akses root (`sudo`) dan dianjurkan untuk selalu melakukan pencadangan (*backup*) berkala atau menjalankannya di lingkungan mesin virtual (*VM / Lab Sandbox*).
+
+---
+
+## Lisensi
+
+Proyek ini didistribusikan di bawah naungan **[MIT License](LICENSE)**. Anda bebas menggunakan, memodifikasi, dan mendistribusikan ulang materi ini untuk kebutuhan belajar maupun pengembangan lebih lanjut.
